@@ -6,3 +6,4 @@
 *.pt
 .venv
 *.csv
+*/model/*
