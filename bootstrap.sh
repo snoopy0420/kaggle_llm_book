@@ -8,12 +8,12 @@ set -euo pipefail
 
 # uvのセットアップ
 ## インストール
-curl -LsSf https://astral.sh/uv/install.sh | sh
-## パスを通す
-export PATH=/root/.local/bin:$PATH
-## uvのキャッシュを/workspace配下にする
-export UV_CACHE_DIR=/workspace/.cache/uv
-mkdir -p /workspace/.cache/uv
+# curl -LsSf https://astral.sh/uv/install.sh | sh
+# ## パスを通す
+# export PATH=/root/.local/bin:$PATH
+# ## uvのキャッシュを/workspace配下にする
+# export UV_CACHE_DIR=/workspace/.cache/uv
+# mkdir -p /workspace/.cache/uv
 
 # パッケージのインストール
 # cd /workspace/atma_udemy/
